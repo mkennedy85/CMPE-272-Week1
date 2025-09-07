@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(docker build:*)",
+      "Bash(docker run:*)",
+      "Bash(curl:*)",
+      "Bash(lsof:*)",
+      "Bash(uv add flask pytest)",
+      "Bash(uv init)",
+      "Bash(uv run:*)",
+      "Bash(./build.sh)",
+      "Bash(vagrant:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git rm:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(open https://hub.docker.com/settings/security)",
+      "Bash(gh repo create:*)",
+      "Bash(gh auth:*)",
+      "Bash(echo:*)",
+      "Bash(ssh:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
